@@ -1,37 +1,35 @@
+# 🛡️ LLM Prompt Injection Tester
 
-# 🔐 LLM Prompt Injection Attack Tester & Visualizer
-
-This project implements a reproducible tool for testing **prompt injection attacks** against multiple LLM-integrated applications (e.g., ChatGPT, Gemini, Grok). Inspired by the HOUYI black-box attack framework, our tool evaluates model vulnerability and visualizes attack success across different systems.
-
----
-
-## 📜 Project Summary
-
-This tool is built upon the core findings of the research paper:
-
-> **"HOUYI: Prompt Injection Attacks Against LLM-integrated Applications"**  
-> The study demonstrates that 86.1% of 36 real-world apps were vulnerable to prompt injection using a black-box method, exposing critical flaws in LLM-integrated services.
-
-We created a tool that:
-- Automates known prompt injection scenarios (inspired by HOUYI)
-- Targets multiple LLMs through a unified web interface
-- Logs and visualizes which LLMs are most vulnerable
-- Helps developers and researchers evaluate the robustness of their AI integrations
+This application provides a framework to test and analyze vulnerabilities of LLM-integrated applications against various types of prompt injection attacks. It supports predefined and custom attacks across multiple LLMs, including GPT-4, Gemini Pro, and Grok-1.
 
 ---
 
-## 🧪 Functionality
+## 📋 Features
 
-### ✅ What Works
-- Send crafted prompt injection payloads to OpenAI (ChatGPT), Gemini, and Grok
-- Choose from multiple attack types: Instruction Override, Separator Bypass, Context Resetter
-- Visualize attack success rates using interactive graphs (bar/pie charts)
-- Export vulnerability reports (CSV/JSON)
+### ✅ Implemented
 
-### ⚠️ What Doesn't (Yet)
-- Defense suggestion engine (in progress)
-- Live model fine-tuning or auto-mitigation
-- Real-time model switching on hosted platforms
+- **Predefined Attacks**  
+  - Framework Component Attack  
+  - Separator–Disruptor Attack  
+  - Recursive Prompt Attack  
+
+- **Custom Prompt Injection**  
+  - Manually input test prompts
+
+- **LLM Selector**  
+  - Run tests against GPT-4, Gemini Pro, and Grok-1
+
+- **Results Dashboard**  
+  - Graphical analysis of success rates across models
+
+---
+
+### 🚧 Not Yet Implemented
+
+- Model-specific mitigation suggestions  
+- Batch testing of multiple injections  
+- Historical result export (CSV/JSON)
+
 
 ---
 
@@ -96,17 +94,4 @@ This paper builds on the prompt injection threat model and introduces runtime de
 ---
 
 ## 🎓 Course
-**CS XXXX - Advanced Topics in Security**  
-Texas State University – Spring 2025
-
----
-
-## 📈 Future Work
-- Integrate prompt defense testing and live alerting
-- Evaluate jailbreak prompts and adversarial chaining attacks
-- Support for Anthropic Claude and Mistral
-
----
-
-## 📄 License
-MIT License – feel free to fork and contribute!
+**CS 4371 - Computer System Security**  
