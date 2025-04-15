@@ -44,8 +44,6 @@ cd llm-prompt-injection-tester
 ### Step 2: Set up environment
 ```bash
 npm install             # for frontend (React/Next.js)
-cd backend
-npm install             # for backend (Express.js + TypeScript)
 ```
 
 ### Step 3: Add your environment keys
@@ -58,12 +56,6 @@ GROK_API_KEY=your-grok-key
 
 ### Step 4: Run the app
 ```bash
-# Start backend
-cd backend
-npm run dev
-
-# In new terminal, start frontend
-cd ../frontend
 npm run dev
 ```
 
