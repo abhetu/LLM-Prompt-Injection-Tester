@@ -3,7 +3,7 @@ import { Play, AlertCircle, Plus } from 'lucide-react';
 import { PromptTest, LLMModel, TestResult } from '../types';
 import { samplePromptTests, availableModels } from '../data/sampleData';
 import { attackIntentions } from '../attacks/intentions';
-import { WriteSonicHarness } from '../harness/writeSonicHarness';
+import { OpenAIHarness } from '../harness/OpenAIHarness';
 import { GeminiHarness } from '../harness/geminiHarness';
 import { GrokHarness } from '../harness/grokHarness';
 
@@ -24,7 +24,7 @@ export default function TestRunner({ onTestComplete }: TestRunnerProps) {
   const getHarness = (modelId: string) => {
     switch (modelId) {
       case 'gpt-4':
-        return new WriteSonicHarness();
+        return new OpenAIHarness();
       case 'gemini-pro':
         return new GeminiHarness();
       case 'grok-1':
@@ -49,7 +49,7 @@ export default function TestRunner({ onTestComplete }: TestRunnerProps) {
       onTestComplete({
         promptId: selectedTest,
         modelId: selectedModel,
-        success: Math.random() > 0.5, // In real implementation, analyze the response
+        success,      
         response: result,
         timestamp: Date.now()
       });
