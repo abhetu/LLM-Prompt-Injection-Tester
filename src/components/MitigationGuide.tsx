@@ -27,15 +27,9 @@ export default function MitigationGuide() {
 
   const researchPapers = [
     {
-      title: "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
-      authors: "Kai Greshake, Sahar Abdelnabi, Mario Fritz",
-      url: "https://arxiv.org/abs/2310.13201",
-      year: 2023
-    },
-    {
-      title: "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+      title: "Enhancing Adversarial Attacks through Chain of Thought",
       authors: "Andy Zou, Zifan Wang, et al.",
-      url: "https://arxiv.org/abs/2307.15043",
+      url: "https://arxiv.org/abs/2410.21791",
       year: 2023
     },
     {
