@@ -80,7 +80,7 @@ npm run dev
 ## 🧠 Research Foundations
 
 - **Prior Research:** [Prompt Injection Attacks Against LLM-integrated Applications](https://arxiv.org/abs/2310.02631) — introduces HOUYI framework and threat taxonomy.
-- **Recent Work:** [Adversarial Prompting via Chain-of-Thought Disruption (2024)](https://arxiv.org/abs/2401.03947) — builds on prior attacks and introduces deeper LLM-aware evasions.
+- **Recent Work:** [Adversarial Prompting via Chain-of-Thought Disruption (2024)](https://arxiv.org/abs/2410.21791) — builds on prior attacks and introduces deeper LLM-aware evasions.
 
 ---
 
