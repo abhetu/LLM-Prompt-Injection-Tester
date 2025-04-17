@@ -36,8 +36,16 @@ function App() {
       <footer className="bg-white mt-12">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <div className="space-y-2 text-center">
+            <h2 className="text-xl font-bold mb-2">📚 About This Project</h2>
             <p className="text-sm text-gray-500">
-              Built for CS 4371 Project by Group 9
+              We made this project to check if AI models can be tricked by 
+              smart or hidden prompts.
+              It helps find weak spots, if any, in models like GPT-4, Gemini, and Grok.
+              This tool can be useful for companies, researchers, or anyone building 
+              AI, so they can make their models safer and harder to fool.
+            </p>
+            <p className="text-sm text-gray-500">
+              Built for CS 4371.251 Project by Group 9
             </p>
             <p className="text-sm text-gray-500">
               Anubhav Bhetuwal • Ananta Aryal • Balmiki R. Padhyaya • Sebika Khulal • Shishir Khanal
