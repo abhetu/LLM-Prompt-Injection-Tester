@@ -40,8 +40,8 @@ export default function MitigationGuide() {
     },
     {
       title: "Prompt Injection Attacks and Defenses in LLM-Integrated Applications",
-      authors: "Weitang Liu, Xiaoyu Zhang, et al.",
-      url: "https://arxiv.org/abs/2310.03623",
+      authors: "Yi Liu, Gelei Deng, et al.",
+      url: "https://arxiv.org/abs/2306.05499",
       year: 2023
     }
   ];
