@@ -44,7 +44,7 @@ export default function MitigationGuide() {
     <div className="bg-white rounded-lg shadow-md p-6 mt-8">
       <h2 className="text-2xl font-bold mb-6 flex items-center">
         <Shield className="mr-2" />
-        Mitigation Strategies
+        Mitigation Strategies Adopted by LLMs
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -85,7 +85,7 @@ export default function MitigationGuide() {
       </div>
 
       <div className="mt-8 p-4 bg-blue-50 rounded-lg">
-        <h3 className="font-semibold text-lg mb-2">Best Practices For Avoiding Prompt Injection Attacks</h3>
+        <h3 className="font-semibold text-lg mb-2">Best Practices Done by LLMs for Avoiding Prompt Injection Attacks</h3>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>Regularly update and test security measures</li>
           <li>Implement multiple layers of defense</li>
