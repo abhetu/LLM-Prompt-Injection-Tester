@@ -85,7 +85,7 @@ export default function MitigationGuide() {
       </div>
 
       <div className="mt-8 p-4 bg-blue-50 rounded-lg">
-        <h3 className="font-semibold text-lg mb-2">Best Practices</h3>
+        <h3 className="font-semibold text-lg mb-2">Best Practices For Avoiding Prompt Injection Attacks</h3>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>Regularly update and test security measures</li>
           <li>Implement multiple layers of defense</li>
