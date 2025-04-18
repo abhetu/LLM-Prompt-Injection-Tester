@@ -138,6 +138,11 @@ export default function TestRunner({ onTestComplete }: TestRunnerProps) {
               onChange={(e) => setCustomPrompt(e.target.value)}
               placeholder="Enter your custom prompt injection test..."
             />
+            <p className="text-xs text-gray-500 mt-2">
+              ⚠️ Disclaimer: Please do not input harmful, illegal, or offensive content. 
+              This tool is for educational and research purposes only.
+            </p>
+
           </div>
         )}
 
